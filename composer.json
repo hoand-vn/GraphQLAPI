@@ -1,0 +1,8 @@
+{
+    "name": "GraphQLAPI",
+    "description": "Plugin API.",
+    "version": "1.0",
+    "extra":{
+        "code": "GraphQLAPI"
+    }
+}
