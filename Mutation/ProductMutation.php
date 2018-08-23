@@ -58,5 +58,6 @@ class ProductMutation
         $Product->setName($args['name']);
         $this->entityManager->persist($Product);
         $this->entityManager->flush();
+        return $Product;
     }
 }
